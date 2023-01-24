@@ -12,8 +12,8 @@
 }
 
 body{
-    font-family: roboto;
-    width: 1440px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
 }
 
 
@@ -23,16 +23,12 @@ body{
 } 
 
 .header-logo{
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
     line-height: calc(24 / 18);
     color: var(--color-iris);
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
 }
 
 .header-logo-studio{
@@ -46,13 +42,13 @@ body{
 .header-item{
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24 / 16);
     letter-spacing: 0.02em;
     list-style-type: none;
 }
 
 .header-link{
-    color: #2E2F42;
+    color: var(--color-navy-blue);
     text-decoration: none;
 }
 
@@ -73,21 +69,16 @@ body{
 .header-mail,
 .header-phone{
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24 / 16);
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-slate);
     text-decoration: none;
 }
 
 /* hero section */
 
 .hero{
-    background-color: var(--color-navy-blue);
-    width: 1440px;
-    height: 300px;
-    top: 72px;
-    left: 0px;
-    
+    background-color: var(--color-navy-blue);   
 }
 
 .hero-title{
@@ -99,18 +90,14 @@ body{
 }
 
 .btn-hero{
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
     background: var(--color-iris);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+  
 }
 
 .btn-hero:hover,
@@ -132,9 +119,7 @@ body{
 }
 
 .our-future-subtitle{
-    width: 264px;
-    height: 24px;
-    font-style: normal;
+    
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
     text-transform:capitalize;
@@ -143,8 +128,6 @@ body{
 .our-future-text{
     font-size: 16px;
     line-height: calc(24 / 16);
-    width: 264px;
-    height: 72px;
     color:var(--color-slate);
 }
 
@@ -177,7 +160,6 @@ body{
     color: var(--color-navy-blue);
     font-size: 36px;
     line-height: calc(40 / 36);
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -189,8 +171,6 @@ body{
 .team-list-card{
     width: 264px;
     height: 380px;
-    left: 156px;
-    top: 1780px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -202,19 +182,16 @@ body{
 
 .team-list-name{
     color: var(--color-navy-blue);
-    font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
-    text-align: center;
     letter-spacing: 0.02em
 }
 
 .team-list-possition{
     font-size: 16px;
     line-height: calc(24 / 16);
-    text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-slate);
 }
 
 /* Portfolio style */
@@ -232,8 +209,7 @@ body{
 }
 
 .menu-list-button{
-    width: 116px;
-    height: 48px;
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
@@ -247,14 +223,6 @@ body{
 .menu-list-button:focus{
     background-color: var(--color-ocean);
     color: #FFFFFF;
-}
-
-.our_product-section{
-
-}
-
-.our_product-list{
-    list-style-type: none;
 }
 
 .our_product-item{
@@ -278,33 +246,25 @@ body{
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
-
 }
 /* footer */
 
 .footer{
     background-color: var(--color-navy-blue);
-    width: 1440px;
-    height: 310px;
-    left: 0px;
-    top: 2280px;
 }
 
 .logo-footer{
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
     line-height: calc(24 / 18);
     color: var(--color-iris);
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
+    
 }
 
 .footer-studio-logo{
-    color: #F4F4FD;
+    color:var(--color-cloud);
 }
 
 .footer-text{
