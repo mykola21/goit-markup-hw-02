@@ -72,7 +72,6 @@ body{
 
 .header-mail,
 .header-phone{
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -142,11 +141,11 @@ body{
 }
 
 .our-future-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24 / 16);
     width: 264px;
     height: 72px;
+    color:var(--color-slate);
 }
 
 .our_product{
@@ -211,7 +210,6 @@ body{
 }
 
 .team-list-possition{
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24 / 16);
     text-align: center;
@@ -277,7 +275,6 @@ body{
 
 .our-product-area{
     color: var(--color-slate);
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
@@ -311,7 +308,6 @@ body{
 }
 
 .footer-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
